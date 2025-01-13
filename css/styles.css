@@ -64,6 +64,10 @@ ul, ol {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
+
 /* .header-address {
 } */
 
@@ -71,7 +75,6 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: #434455; 
 }
 
@@ -160,14 +163,15 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
+    background-color: #FFFFFF;
     
 }
 
-.ourteam-list {
+/* .ourteam-list {
     background-color: #FFFFFF;
-}
+} */
 
 /* .ourteam-item {
 }
@@ -201,7 +205,7 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
