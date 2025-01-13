@@ -24,18 +24,20 @@ ul, ol {
 } */
 
 .header-logo {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 
 
 .header-logo-raleway {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -69,6 +71,7 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455; 
 }
 
@@ -101,6 +104,7 @@ ul, ol {
     background-color: #4d5ae5;
 }
 
+.title-btn:hover,
 .title-btn:focus {
     background-color: #404bbf;
 }
@@ -156,13 +160,16 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
+    
 }
 
-/* .ourteam-list {
+.ourteam-list {
+    background-color: #FFFFFF;
 }
 
-.ourteam-item {
+/* .ourteam-item {
 }
 
 .ourteam-img {
@@ -194,6 +201,7 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize
     color: #2e2f42;
 }
 
@@ -231,10 +239,11 @@ ul, ol {
 } */
 
 .header-logo-ralewaytwo {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
 }
